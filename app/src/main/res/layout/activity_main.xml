@@ -1,0 +1,102 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/road2"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/your"
+        android:paddingLeft="@dimen/y"
+        android:paddingTop="@dimen/y2"
+        android:paddingBottom="@dimen/mg"
+        android:text="@string/y"
+        android:textSize="@dimen/y3"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/future"
+        android:paddingTop="@dimen/fu"
+        android:paddingLeft="@dimen/fu2"
+        android:layout_toRightOf="@id/your"
+        android:text="@string/fu"
+        android:textSize="@dimen/fu3"
+        android:textColor="@color/orange"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/created"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="@dimen/is"
+        android:paddingBottom="@dimen/mg"
+        android:layout_below="@id/your"
+        android:text="@string/is"
+        android:textSize="@dimen/y3"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/youdo"
+        android:paddingLeft="@dimen/y"
+        android:layout_below="@id/created"
+        android:text="@string/wh"
+        android:textSize="@dimen/y3"
+        android:textColor="@color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/today"
+        android:layout_below="@id/youdo"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="@dimen/tod"
+        android:text="@string/tod"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textSize="@dimen/tod2"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tomorrow"
+        android:paddingBottom="@dimen/fu"
+        android:paddingRight="@dimen/y"
+        android:paddingLeft="@dimen/fu2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/tom"
+        android:textSize="@dimen/tom"
+        android:textColor="@color/gray"
+        android:textStyle="bold"
+        android:shadowColor="@color/black"
+        android:shadowDx="3.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="1.5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/y"
+        android:paddingBottom="@dimen/y3"
+        android:layout_toLeftOf="@id/tomorrow"
+        android:layout_alignParentBottom="true"
+        android:text="@string/n"
+        android:textSize="30"
+        android:textColor="@color/red"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+

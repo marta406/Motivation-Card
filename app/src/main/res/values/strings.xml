@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Own Card</string>
+    <string name="y">Your</string>
+    <string name="fu"> FUTURE</string>
+    <string name="is">is created by</string>
+    <string name="wh">what you do</string>
+    <string name="tod"> Today</string>
+    <string name="tom"> tomorrow</string>
+    <string name="n">NOT</string>
+
+</resources>
